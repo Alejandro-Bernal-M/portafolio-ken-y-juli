@@ -38,11 +38,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 3px 10px;
 }
 
 .links > li::after {
   content: "";
-  display: block;
   width: 0;
   height: 2px;
   background-color: #000;
@@ -51,5 +51,10 @@
 
 .links > li:hover::after {
   width: 100%;
+}
+
+.active {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
 }
   
