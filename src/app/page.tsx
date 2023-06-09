@@ -13,7 +13,7 @@ export default function Home() {
       <div className={styles.info}>
         <h2>Estamos muy felices de compartir nuestro talento.</h2>
         <br />
-        <p>Nuestros servicios:</p>
+        <h3>Nuestros servicios:</h3>
         <ul>
           <li>Ambientacion de eventos sociales.</li>
           <li>Bailes tipicos Colombianos.</li>
