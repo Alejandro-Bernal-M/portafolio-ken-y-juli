@@ -24,6 +24,7 @@
   max-height: 650px;
   min-width: 300px;
   min-height: 300px;
+  animation: fadeInFromLeft 3s ease-in 1;
 }
 
 .info {
@@ -40,6 +41,41 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.info > ul > li:nth-child(1) {
+  animation: fadeInFromRight 2s ease-in 1;
+}
+.info > ul > li:nth-child(2) {
+  animation: fadeInFromRight 2.5s ease-in 1;
+}
+.info > ul > li:nth-child(3) {
+  animation: fadeInFromRight 3s ease-in 1;
+}
+.info > ul > li:nth-child(4) {
+  animation: fadeInFromRight 3.5s ease-in 1;
+}
+
+@keyframes fadeInFromLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInFromRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 /* Tablet and Smaller Desktop */
