@@ -1,0 +1,37 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.photoAndInfo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 85px;
+  gap: 10px;
+}
+
+.photo {
+  width: 60%;
+  height: 60%;
+  max-width: 400px;
+  max-height: 400px;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  gap: 20px;
+}
