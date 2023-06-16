@@ -6,6 +6,21 @@
   margin-bottom: 3rem;
 }
 
+.titleAndLogo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
 .card {
   display: flex;
   flex-direction: column;
