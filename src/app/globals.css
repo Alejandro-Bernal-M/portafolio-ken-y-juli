@@ -50,3 +50,7 @@ p, ul {
   font-size: 1.5rem;
   font-weight: 300;
 }
+
+.hidden {
+  display: none;
+}
