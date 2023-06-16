@@ -8,13 +8,15 @@ import { usePathname } from "next/navigation"
 import { Twirl as Hamburger } from 'hamburger-react'
 import { useState } from "react"
 import Popup from "./Popup"
-import { useRef } from "react"
-import  useWindowSize  from "../../utils/useWindowSize"
+import  useWindowDimensions  from "../../utils/useWindowDimensions"
 
 function Navbar() {
   const path = usePathname()
   const [isOpen, setOpen] = useState(false)
-  const { width } = useWindowSize();
+  let { width } = useWindowDimensions();
+  if (width == undefined) {
+    width = 0;
+  }
   
     return (
       <nav className={styles.navbar}>
@@ -26,7 +28,7 @@ function Navbar() {
             />
         </div>
         {
-          width <= 768
+          width <= 768 
           &&
           <Hamburger
           toggled={isOpen}
