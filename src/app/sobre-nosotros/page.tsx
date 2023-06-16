@@ -16,11 +16,11 @@ function SobreNosotros() {
       name: "Kenyth Jaramillo Bernal",
       photo: ken,
       info: [
-        "Bailarin profesional de danzas folcloricas Colombianas.",
-        "Coreografo de bailes tipicos Colombianos.",
-        "Bailarin de salsa y bachata.",
+        "Bailarín profesional de danzas folcloricas Colombianas.",
+        "Coreografo de bailes típicos Colombianos.",
+        "Bailarín de salsa y bachata.",
         "Profesor de baile.",
-        "Bailarin profesional de baile contemporaneo."
+        "Bailarín profesional de baile contemporaneo."
       ]
     },
     "juli" : {
@@ -28,7 +28,7 @@ function SobreNosotros() {
       photo: juli,
       info: [
         "Bailarina profesional de danzas folcloricas Colombianas.",
-        "Coreografa de bailes tipicos Colombianos.",
+        "Coreografa de bailes típicos Colombianos.",
         "Bailarina de salsa y bachata.",
         "Profesora de baile."
       ]
