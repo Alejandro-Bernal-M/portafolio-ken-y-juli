@@ -5,7 +5,7 @@ import pareja from '../assets/pareja.png'
 export default function Home() {
   return (
     <main className={styles.main}>
-     <h1>Kenyth y Juliana</h1>
+     <h1 className="title">KENYTH Y JULIANA</h1>
      <div className={styles.photoAndInfo}>
       <div>
         <Image src={pareja} alt="Pareja" className={styles.photo} />
