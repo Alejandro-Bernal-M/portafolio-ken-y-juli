@@ -11,11 +11,9 @@ type ProfileCardProps = {
 function ProfileCard({ name, photo, info}: ProfileCardProps) {
   return(
     <div className={styles.card}>
-      <h2 className={styles.name}>{name}</h2>
-      <div className={styles.photoAndInfo}>
-        <div className={styles.photoContainer}>
-          <Image src={photo} alt={name} className={styles.photo} />
-        </div>
+      <h3 className={styles.name}>{name}</h3>
+      <div className={ name == "Juliana Florez Patiño" ?  styles.reverse : styles.photoAndInfo}>
+        <Image src={photo} alt={name} className={styles.photo} />
         <div className={styles.info}>
           {info.map((item) => (
             <p key={item}>{item}</p>

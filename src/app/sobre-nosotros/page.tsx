@@ -2,6 +2,7 @@ import ProfileCard from "@/components/ProfileCard"
 import ken from '../../assets/ken.png'
 import juli from '../../assets/juli.png'
 import { StaticImageData } from "next/image"
+import styles from '../../styles/ProfileCard.module.css'
 
 function SobreNosotros() {
   type Profiles = {
@@ -35,8 +36,8 @@ function SobreNosotros() {
     }
   } 
   return (
-    <section>
-      <h1>Sobre nosotros</h1>
+    <section className={styles.section}>
+      <h1>¿Quienes somos?</h1>
       {Object.keys(Profiles).map((person) => (
         <ProfileCard
           key={person}
