@@ -1,0 +1,32 @@
+.container {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #0c99b5da;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.container > ul {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 30px;
+}
+
+.popLink {
+  font-weight: 700;
+  font-size: 1.5rem;  
+}
+
+.container > ul > li > a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
