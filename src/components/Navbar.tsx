@@ -8,12 +8,14 @@ import { usePathname } from "next/navigation"
 import { Twirl as Hamburger } from 'hamburger-react'
 import { useState } from "react"
 import Popup from "./Popup"
-
+import { useRef } from "react"
+import  useWindowSize  from "../../utils/useWindowSize"
 
 function Navbar() {
   const path = usePathname()
   const [isOpen, setOpen] = useState(false)
-
+  const { width } = useWindowSize();
+  
     return (
       <nav className={styles.navbar}>
         <div className={styles.logoHolder}>
@@ -24,7 +26,7 @@ function Navbar() {
             />
         </div>
         {
-          window.innerWidth <= 768
+          width <= 768
           &&
           <Hamburger
           toggled={isOpen}
@@ -33,7 +35,7 @@ function Navbar() {
           />
         }
         {isOpen && <Popup setOpen={setOpen} />}
-        <ul className={ window.innerWidth > 768 ? styles.links : 'hidden'}>
+        <ul className={ width > 768 ? styles.links : 'hidden'}>
           <li
             className={path == "/" ? styles.active : ""}
           >
