@@ -1,10 +1,10 @@
 import ProfileCard from "@/components/ProfileCard"
-import ken from '../../assets/ken.png'
-import juli from '../../assets/juli.png'
+import kenyth from '../../assets/ken.jpeg'
+import juliana from '../../assets/juliana.jpeg'
 import { StaticImageData } from "next/image"
 import styles from '../../styles/ProfileCard.module.css'
 import Image from 'next/image'
-import logo from '../../assets/K2.png'
+import logo from '../../assets/logo.jpeg'
 
 function SobreNosotros() {
   type Profiles = {
@@ -15,25 +15,27 @@ function SobreNosotros() {
     }
   }
   const Profiles: Profiles = {
-    "ken" : {
+    "kenyth" : {
       name: "Kenyth Jaramillo Bernal",
-      photo: ken,
+      photo: kenyth,
       info: [
         "Bailarín profesional de danzas folcloricas Colombianas.",
         "Coreografo de bailes típicos Colombianos.",
-        "Bailarín de salsa y bachata.",
+        "Coreografo de bailes danza contemporanea.",
+        "Bailarín de ritmos latinos.",
         "Profesor de baile.",
-        "Bailarín profesional de baile contemporaneo."
+        "Bailarín profesional de danza contemporaneo."
       ]
     },
-    "juli" : {
-      name: "Juliana Florez Patiño",
-      photo: juli,
+    "juliana" : {
+      name: "Juliana Guerrero Pérez",
+      photo: juliana,
       info: [
         "Bailarina profesional de danzas folcloricas Colombianas.",
         "Coreografa de bailes típicos Colombianos.",
-        "Bailarina de salsa y bachata.",
-        "Profesora de baile."
+        "Producción de maquillaje para eventos artísticos y sociales.",
+        "Bailarina de ritmos latinos.",
+        "Profesora de bailes sociales."
       ]
     }
   } 

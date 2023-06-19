@@ -12,7 +12,7 @@ function ProfileCard({ name, photo, info}: ProfileCardProps) {
   return(
     <div className={styles.card}>
       <h3 className={styles.name}>{name}</h3>
-      <div className={ name == "Juliana Florez Patiño" ?  styles.reverse : styles.photoAndInfo}>
+      <div className={ name == "Juliana Guerrero Pérez" ?  styles.reverse : styles.photoAndInfo}>
         <Image src={photo} alt={name} className={styles.photo} />
         <div className={styles.info}>
           {info.map((item) => (

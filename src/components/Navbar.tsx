@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import Logo from "../assets/K2.png"
+import Logo from "../assets/logo.jpeg"
 import styles from "../styles/Navbar.module.css"
 import { usePathname } from "next/navigation"
 import { Twirl as Hamburger } from 'hamburger-react'
