@@ -7,8 +7,9 @@ function Contacto() {
             <p>Si te interesan nuestros servicios o requieres más información, no dudes en contactarnos.</p>
             <p>Estaremos dispuestos a resolver todas tus dudas. 😃</p>
             <ul>
-                <li> 📧 correo@correo.com </li>
-                <li> 📞 123 456 7890 </li>
+                <li> 📧 raicesdemitierra418@gmail.com </li>
+                <li> 📞 603 52 97 86 </li>
+                <li> 📞 605 55 99 00 </li>
             </ul>
         </section>
     )
