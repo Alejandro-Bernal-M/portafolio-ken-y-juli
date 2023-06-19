@@ -51,7 +51,7 @@
 }
 
 .info {
-  width: 50%;
+  width: max(50%, 250px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
